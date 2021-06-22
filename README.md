@@ -6,4 +6,12 @@ Team members: Arianna V., Beatrice B.M., Elisa C., Vittoria F.
 
 ## Costa Del Mar
 
+### Goal 01: Fix filters for the PLP
+
+The filter tab should be made more evident. 
+
 ## Sunglass Hut
+
+### Goal 01: Fix filters for the PLP
+
+The filter tab should be made more evident. 
