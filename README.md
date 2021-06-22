@@ -2,7 +2,7 @@
 
 Team members: Arianna V., Beatrice B.M., Elisa C., Vittoria F.
 
-![alt text](http://url/to/team.jpg)
+![Image of the team](https://github.com/spd-master-web/Vabe---E-Commerce/blob/main/team.jpg)
 
 ## Costa Del Mar
 
