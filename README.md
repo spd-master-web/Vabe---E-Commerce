@@ -35,6 +35,6 @@ We worked on the icon by decoding it, changing the settings, and encoding it aga
 
 [Link to Encode](https://base64.guru/converter/encode/image/svg)
 
-![Screenshot of the Updated Design](https://github.com/spd-master-web/Vabe---E-Commerce/blob/main/SGH/01_SGH/plp_filtertab.png)
+![Screenshot of the Updated Design](https://github.com/spd-master-web/Vabe---E-Commerce/blob/main/SGH/01_SGH/plp_filter.png)
 
 ### BRAVI TUTTI!
