@@ -1,4 +1,4 @@
-# E-Commerce Redesign by VABÈ Team
+c# E-Commerce Redesign by VABÈ Team
 
 Team members: Arianna V., Beatrice B.M., Elisa C., Vittoria F.
 
@@ -6,9 +6,40 @@ Team members: Arianna V., Beatrice B.M., Elisa C., Vittoria F.
 
 ## Costa Del Mar
 
-### Goal 01: Fix filters for the PLP
+### Goal 01: Fix filters + view for the PLP
 
-The filter tab should be made more evident.
+Create buttons to switch view.
+1. Create a div container.
+2. Insert buttons inside container.
+
+```
+jQuery("#slot-5").append("<div id='switchView'></div>");
+jQuery("#switchView").html("<button id='btnSingle' type='button'>Single View</button><button id='btnDouble' type='button'>Gallery</button>");
+```
+
+Add grid and functions to buttons.
+```
+jQuery("#btnDouble").click(function() {jQuery("div.products-grid").addClass("gallery-view");});
+jQuery("#btnSingle").click(function() {jQuery("div.products-grid").removeClass("gallery-view");});
+jQuery("<style type='text/css'> .gallery-view{ display:grid; grid-template-columns:200px 200px;} </style>").appendTo("head");
+```
+
+Fix layout.
+```
+jQuery(".catEntryGrid_border").remove()
+jQuery(".banner--vertical").css('grid-column', '1 / 3');
+jQuery(".banner--vertical").css('order', '-10');
+```
+
+Quick check to see if button works (we may need it in the future):
+```
+jQuery("#btnSingle").click(function() {console.log("this working")});
+```
+
+Style buttons.
+```
+jQuery("#switchView").css('float', 'right');
+```
 
 ## Sunglass Hut
 
